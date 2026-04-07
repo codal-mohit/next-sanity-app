@@ -21,9 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" dir="ltr" className={manrope.className}>
       <body className="flex min-h-full flex-col">
-        <div>Header</div>
         <main>{children}</main>
-        <div>Footer</div>
       </body>
     </html>
   );
